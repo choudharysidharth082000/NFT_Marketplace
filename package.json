@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "DISABLE_ESLINT_PLUGIN=true next build",
+    "start": "DISABLE_ESLINT_PLUGIN=true next start",
+    "lint": "DISABLE_ESLINT_PLUGIN=true next lint"
   },
   "dependencies": {
     "@emotion/react": "^11.9.3",
