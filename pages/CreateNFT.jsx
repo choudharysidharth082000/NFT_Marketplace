@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button"
-import { Draggable, Droppable } from 'react-drag-and-drop'
 
 const createNFT = () => {
   
@@ -57,7 +56,7 @@ const createNFT = () => {
           <div className="contanorText py-4">
             <h1 className="font-semibold">Description</h1>
             <p className="text-sm">
-              The description will be included on the item's detail page
+              The description will be included on the item&quote;s detail page
               underneath its image. Markdown syntax is supported.
             </p>
           </div>
