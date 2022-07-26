@@ -19,7 +19,7 @@ const Navbar = (props) => {
         <input type="text" placeholder="Search items, collections and accounts"  className="w-full text-[#e6e8eb] placeholder:text-[#8a939b] bg-transparent py-2 px-2 rounded-md border border-slate-500 outline-none"/>
       </div>
       <div className="links flex justify-around items-center text-white">
-        <h1 className="px-2 font-medium cursor-pointer">Explore</h1>
+        <Link href="/ListNNFT"><h1 className="px-2 font-medium cursor-pointer">Explore</h1></Link>
         <h1 className="px-2 font-medium cursor-pointer">Stats</h1>
         <h1 className="px-2 font-medium cursor-pointer">Resource</h1>
         <h1 className="px-2 font-medium cursor-pointer">Create</h1>
